@@ -1,0 +1,19 @@
+{
+  "name": "story-chain",
+  "version": "1.0.0",
+  "description": "Collaborative storytelling bot for Discord",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test src/**/*.test.js 2>/dev/null || echo 'No tests found'"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "better-sqlite3": "^9.4.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
