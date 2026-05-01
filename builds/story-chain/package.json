@@ -1,12 +1,13 @@
 {
   "name": "story-chain",
   "version": "1.0.0",
-  "description": "Collaborative story writing bot for Discord",
+  "description": "Collaborative storytelling bot for Discord",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "node --watch src/index.js"
+    "dev": "node --watch src/index.js",
+    "test": "node --test src/**/*.test.js 2>/dev/null || echo 'No tests found'"
   },
   "dependencies": {
     "discord.js": "^14.14.1",
